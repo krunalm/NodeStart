@@ -1,0 +1,9 @@
+{
+  "name": "helloWorld",
+  "description": "hello World",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.12.3",
+    "jade": "1.9.2"
+  }
+}

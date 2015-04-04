@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+	head
+		title= pageTitle
+		link(href="css/site.css", rel="stylesheet", type="text/css")
+	body
+		h1= header
+		ul#links
+			li
+				a(href="/") home
+			li
+				a(href="about") about
+			li
+				a(href="contact") contact
+		block content
